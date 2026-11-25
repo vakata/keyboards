@@ -1,8 +1,8 @@
 {
     "keyboard_name": "KLOR", 
-    "url": "https://github.com/Lefuneste83/KLOR", 
-    "manufacturer": "ElectronLab",
-    "maintainer": "Lefuneste83",
+    "url": "https://github.com/vakata/keyboards", 
+    "manufacturer": "vakata",
+    "maintainer": "vakata",
     "usb": {
         "vid": "0x3A3C",
         "pid": "0x0001",
