@@ -1,0 +1,139 @@
+name: Build firmware
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  VIAL_COMMIT: dd43959ae5c08d8a28d38a1acf7b04e86b14a344
+
+jobs:
+  build:
+    name: ${{ matrix.keyboard }} (${{ matrix.side }})
+    runs-on: ubuntu-latest
+
+    container:
+      image: ghcr.io/qmk/qmk_cli:latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        keyboard:
+          - klor
+          - swoop
+        side:
+          - generic
+          - left
+          - right
+        exclude:
+          - keyboard: swoop
+            side: left
+          - keyboard: swoop
+            side: right
+
+    steps:
+      - name: Checkout keyboards
+        uses: actions/checkout@v4
+
+      - name: Checkout Vial-QMK
+        uses: actions/checkout@v4
+        with:
+          repository: vial-kb/vial-qmk
+          ref: ${{ env.VIAL_COMMIT }}
+          submodules: recursive
+          path: vial-qmk
+
+      - name: Link keyboard sources
+        run: |
+          ln -s "$GITHUB_WORKSPACE/firmware/vakata" \
+            "$GITHUB_WORKSPACE/vial-qmk/keyboards/vakata"
+
+      - name: Configure QMK
+        run: |
+          qmk config user.qmk_home="$GITHUB_WORKSPACE/vial-qmk"
+
+      - name: Set handedness
+        if: matrix.keyboard == 'klor' && matrix.side != 'generic'
+        shell: bash
+        run: |
+          SIDE="${{ matrix.side }}"
+          echo "#define INIT_EE_HANDS_${SIDE^^}" >> \
+            firmware/vakata/klor/keymaps/vial/config.h
+
+      - name: Compile
+        working-directory: vial-qmk
+        run: |
+          qmk compile -kb vakata/${{ matrix.keyboard }} -km vial
+
+      - name: Collect firmware
+        shell: bash
+        run: |
+          mkdir -p artifacts
+
+          KEYBOARD="${{ matrix.keyboard }}"
+          SIDE="${{ matrix.side }}"
+          SOURCE="vial-qmk/vakata_${KEYBOARD}_vial"
+
+          if [ "$KEYBOARD" = "klor" ]; then
+            cp "${SOURCE}.uf2" "artifacts/klor-${SIDE}.uf2"
+          else
+            cp "${SOURCE}.hex" artifacts/swoop.hex
+
+            cp vial-qmk/quantum/split_common/eeprom-lefthand.eep \
+              artifacts/swoop-left.eep
+
+            cp vial-qmk/quantum/split_common/eeprom-righthand.eep \
+              artifacts/swoop-right.eep
+          fi
+
+          cp "config/${KEYBOARD}.vil" artifacts/
+
+      - name: Record build environment
+        working-directory: vial-qmk
+        run: |
+          {
+            echo "Vial-QMK commit:"
+            git rev-parse HEAD
+
+            echo "Submodules:"
+            git submodule status --recursive
+
+            echo "QMK CLI:"
+            qmk --version
+
+            echo "AVR compiler:"
+            avr-gcc --version
+
+            echo "ARM compiler:"
+            arm-none-eabi-gcc --version
+          } > ../artifacts/build-info.txt
+
+      - name: Upload firmware
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.keyboard }}-${{ matrix.side }}
+          path: artifacts/
+          if-no-files-found: error
+          retention-days: 90
+
+  package:
+    name: Package all firmwares
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Download firmwares
+        uses: actions/download-artifact@v4
+        with:
+          path: firmwares
+
+      - name: Upload complete bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: all-firmwares
+          path: firmwares/
+          retention-days: 90
