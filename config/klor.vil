@@ -1,0 +1,1002 @@
+{
+  "alt_repeat_key": [
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    },
+    {
+      "allowed_mods": 0,
+      "alt_keycode": "KC_NO",
+      "keycode": "KC_NO",
+      "options": 0
+    }
+  ],
+  "combo": [
+    [
+      "KC_D",
+      "KC_F",
+      "KC_NO",
+      "KC_NO",
+      "KC_COMMA"
+    ],
+    [
+      "KC_S",
+      "KC_D",
+      "KC_F",
+      "KC_NO",
+      "LSFT(KC_RIGHT_BRACKET)"
+    ],
+    [
+      "KC_S",
+      "KC_D",
+      "KC_NO",
+      "KC_NO",
+      "LSFT(KC_LEFT_BRACKET)"
+    ],
+    [
+      "KC_K",
+      "KC_L",
+      "KC_NO",
+      "KC_NO",
+      "KC_MINUS"
+    ],
+    [
+      "KC_J",
+      "KC_K",
+      "KC_NO",
+      "KC_NO",
+      "LSFT(KC_EQUAL)"
+    ],
+    [
+      "KC_U",
+      "KC_I",
+      "KC_NO",
+      "KC_NO",
+      "LSFT(KC_5)"
+    ],
+    [
+      "KC_L",
+      "KC_GRAVE",
+      "KC_NO",
+      "KC_NO",
+      "KC_SEMICOLON"
+    ],
+    [
+      "KC_C",
+      "KC_V",
+      "KC_NO",
+      "KC_NO",
+      "KC_DOT"
+    ],
+    [
+      "KC_M",
+      "KC_LEFT_BRACKET",
+      "KC_NO",
+      "KC_NO",
+      "KC_KP_ASTERISK"
+    ],
+    [
+      "KC_Z",
+      "KC_X",
+      "KC_NO",
+      "KC_NO",
+      "LSG(KC_4)"
+    ],
+    [
+      "KC_X",
+      "KC_C",
+      "KC_NO",
+      "KC_NO",
+      "LSFT(KC_9)"
+    ],
+    [
+      "KC_LEFT_BRACKET",
+      "KC_RIGHT_BRACKET",
+      "KC_NO",
+      "KC_NO",
+      "KC_SLASH"
+    ],
+    [
+      "KC_F",
+      "KC_E",
+      "KC_NO",
+      "KC_NO",
+      "LSFT(KC_4)"
+    ],
+    [
+      "KC_J",
+      "KC_I",
+      "KC_NO",
+      "KC_NO",
+      "LSFT(KC_6)"
+    ],
+    [
+      "KC_X",
+      "KC_C",
+      "KC_V",
+      "KC_NO",
+      "LSFT(KC_0)"
+    ],
+    [
+      "KC_J",
+      "KC_K",
+      "KC_L",
+      "KC_NO",
+      "LSFT(KC_1)"
+    ],
+    [
+      "KC_F",
+      "KC_S",
+      "KC_NO",
+      "KC_NO",
+      "KC_TAB"
+    ],
+    [
+      "KC_Q",
+      "KC_W",
+      "KC_NO",
+      "KC_NO",
+      "LSFT(KC_3)"
+    ],
+    [
+      "KC_D",
+      "KC_V",
+      "KC_NO",
+      "KC_NO",
+      "KC_QUOTE"
+    ],
+    [
+      "KC_M",
+      "KC_LEFT_BRACKET",
+      "KC_RIGHT_BRACKET",
+      "KC_NO",
+      "LSFT(KC_BACKSLASH)"
+    ],
+    [
+      "KC_W",
+      "KC_E",
+      "KC_NO",
+      "KC_NO",
+      "LSFT(KC_COMMA)"
+    ],
+    [
+      "KC_W",
+      "KC_E",
+      "KC_R",
+      "KC_NO",
+      "LSFT(KC_DOT)"
+    ],
+    [
+      "KC_E",
+      "KC_R",
+      "KC_NO",
+      "KC_NO",
+      "LSFT(KC_QUOTE)"
+    ],
+    [
+      "KC_U",
+      "KC_I",
+      "KC_O",
+      "KC_NO",
+      "LSFT(KC_7)"
+    ],
+    [
+      "KC_I",
+      "KC_O",
+      "KC_NO",
+      "KC_NO",
+      "LSFT(KC_SEMICOLON)"
+    ],
+    [
+      "KC_P",
+      "KC_O",
+      "KC_NO",
+      "KC_NO",
+      "LSFT(KC_MINUS)"
+    ],
+    [
+      "KC_RIGHT_BRACKET",
+      "KC_BACKSLASH",
+      "KC_NO",
+      "KC_NO",
+      "LSFT(KC_SLASH)"
+    ],
+    [
+      "KC_K",
+      "KC_M",
+      "KC_NO",
+      "KC_NO",
+      "KC_EQUAL"
+    ],
+    [
+      "KC_J",
+      "KC_L",
+      "KC_NO",
+      "KC_NO",
+      "LSFT(KC_2)"
+    ],
+    [
+      "KC_F",
+      "KC_J",
+      "KC_NO",
+      "KC_NO",
+      "0x30c"
+    ],
+    [
+      "KC_D",
+      "KC_K",
+      "KC_NO",
+      "KC_NO",
+      "QK_CAPS_WORD_TOGGLE"
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO"
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO"
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO"
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO"
+    ]
+  ],
+  "encoder_layout": [
+    [
+      [
+        "KC_AUDIO_VOL_DOWN",
+        "KC_AUDIO_VOL_UP"
+      ],
+      [
+        "KC_WH_D",
+        "KC_WH_U"
+      ]
+    ],
+    [
+      [
+        "KC_AUDIO_VOL_DOWN",
+        "KC_AUDIO_VOL_UP"
+      ],
+      [
+        "KC_WH_D",
+        "KC_WH_U"
+      ]
+    ],
+    [
+      [
+        "KC_AUDIO_VOL_DOWN",
+        "KC_AUDIO_VOL_UP"
+      ],
+      [
+        "KC_WH_D",
+        "KC_WH_U"
+      ]
+    ],
+    [
+      [
+        "KC_AUDIO_VOL_DOWN",
+        "KC_AUDIO_VOL_UP"
+      ],
+      [
+        "KC_WH_D",
+        "KC_WH_U"
+      ]
+    ]
+  ],
+  "layout": [
+    [
+      [
+        "KC_NO",
+        "KC_Q",
+        "KC_W",
+        "KC_E",
+        "KC_R",
+        "KC_T"
+      ],
+      [
+        "MT(MOD_LSFT,KC_TAB)",
+        "KC_A",
+        "KC_S",
+        "KC_D",
+        "KC_F",
+        "KC_G"
+      ],
+      [
+        "KC_LEFT_CTRL",
+        "KC_Z",
+        "KC_X",
+        "KC_C",
+        "KC_V",
+        "KC_B"
+      ],
+      [
+        "KC_NO",
+        "KC_LEFT_ALT",
+        "TD(13)",
+        "MT(MOD_LCTL,KC_BACKSPACE)",
+        "LT(1,KC_ESCAPE)",
+        "KC_AUDIO_MUTE"
+      ],
+      [
+        "KC_NO",
+        "KC_P",
+        "KC_O",
+        "KC_I",
+        "KC_U",
+        "KC_Y"
+      ],
+      [
+        "KC_QUOTE",
+        "KC_GRAVE",
+        "KC_L",
+        "KC_K",
+        "KC_J",
+        "KC_H"
+      ],
+      [
+        "KC_BACKSLASH",
+        "KC_BACKSLASH",
+        "KC_RIGHT_BRACKET",
+        "KC_LEFT_BRACKET",
+        "KC_M",
+        "KC_N"
+      ],
+      [
+        "KC_NO",
+        "KC_DELETE",
+        "TD(14)",
+        "KC_SPACE",
+        "LT(2,KC_ENTER)",
+        "LCTL(KC_TAB)"
+      ]
+    ],
+    [
+      [
+        "KC_NO",
+        "KC_TRANSPARENT",
+        "KC_TRANSPARENT",
+        "KC_TRANSPARENT",
+        "KC_TRANSPARENT",
+        "KC_TRANSPARENT"
+      ],
+      [
+        "KC_MINUS",
+        "OSM(MOD_LCTL)",
+        "OSM(MOD_LALT)",
+        "OSM(MOD_LGUI)",
+        "OSM(MOD_LSFT)",
+        "KC_CAPS_LOCK"
+      ],
+      [
+        "LSFT(KC_MINUS)",
+        "QK_UNDERGLOW_TOGGLE",
+        "QK_UNDERGLOW_MODE_NEXT",
+        "LGUI(KC_C)",
+        "LGUI(KC_V)",
+        "MO(3)"
+      ],
+      [
+        "KC_NO",
+        "KC_TRANSPARENT",
+        "KC_TRANSPARENT",
+        "TG(1)",
+        "KC_TRANSPARENT",
+        "KC_AUDIO_MUTE"
+      ],
+      [
+        "KC_NO",
+        "KC_BACKSPACE",
+        "KC_END",
+        "KC_UP",
+        "KC_HOME",
+        "KC_ESCAPE"
+      ],
+      [
+        "LSFT(KC_EQUAL)",
+        "KC_TAB",
+        "KC_RIGHT",
+        "KC_DOWN",
+        "KC_LEFT",
+        "KC_PAGE_UP"
+      ],
+      [
+        "LSFT(KC_8)",
+        "LALT(KC_BACKSPACE)",
+        "LGUI(KC_V)",
+        "LGUI(KC_C)",
+        "KC_DELETE",
+        "KC_PAGE_DOWN"
+      ],
+      [
+        "KC_NO",
+        "KC_TRANSPARENT",
+        "KC_TRANSPARENT",
+        "KC_TRANSPARENT",
+        "KC_TRANSPARENT",
+        "LCTL(KC_TAB)"
+      ]
+    ],
+    [
+      [
+        "KC_NO",
+        "TD(1)",
+        "TD(2)",
+        "TD(3)",
+        "TD(4)",
+        "TD(5)"
+      ],
+      [
+        "QK_UNDERGLOW_VALUE_UP",
+        "OSM(MOD_LCTL)",
+        "OSM(MOD_LALT)",
+        "OSM(MOD_LGUI)",
+        "OSM(MOD_LSFT)",
+        "OSM(MOD_LCTL|MOD_LSFT|MOD_LALT)"
+      ],
+      [
+        "QK_UNDERGLOW_VALUE_DOWN",
+        "QK_UNDERGLOW_TOGGLE",
+        "KC_TRANSPARENT",
+        "KC_TRANSPARENT",
+        "KC_TRANSPARENT",
+        "KC_TRANSPARENT"
+      ],
+      [
+        "KC_NO",
+        "KC_TRANSPARENT",
+        "KC_TRANSPARENT",
+        "KC_TRANSPARENT",
+        "KC_TRANSPARENT",
+        "KC_AUDIO_MUTE"
+      ],
+      [
+        "KC_NO",
+        "TD(10)",
+        "TD(9)",
+        "TD(8)",
+        "TD(7)",
+        "TD(6)"
+      ],
+      [
+        "KC_PAGE_UP",
+        "TD(10)",
+        "TD(6)",
+        "TD(5)",
+        "TD(4)",
+        "TD(11)"
+      ],
+      [
+        "KC_PAGE_DOWN",
+        "KC_ENTER",
+        "TD(3)",
+        "TD(2)",
+        "TD(1)",
+        "TD(12)"
+      ],
+      [
+        "KC_NO",
+        "QK_USER_3",
+        "KC_TRANSPARENT",
+        "TG(2)",
+        "KC_TRANSPARENT",
+        "LCTL(KC_TAB)"
+      ]
+    ],
+    [
+      [
+        "KC_NO",
+        "QK_AUDIO_TOGGLE",
+        "QK_HAPTIC_TOGGLE",
+        "QK_UNDERGLOW_HUE_UP",
+        "QK_UNDERGLOW_MODE_NEXT",
+        "KC_NO"
+      ],
+      [
+        "QK_BOOTLOADER",
+        "QK_DEBUG_TOGGLE",
+        "QK_USER_0",
+        "QK_UNDERGLOW_SATURATION_UP",
+        "KC_NO",
+        "KC_NO"
+      ],
+      [
+        "QK_USER_5",
+        "QK_USER_4",
+        "KC_TRANSPARENT",
+        "QK_UNDERGLOW_VALUE_UP",
+        "KC_NO",
+        "KC_NO"
+      ],
+      [
+        "KC_NO",
+        "KC_TRANSPARENT",
+        "QK_USER_1",
+        "KC_TRANSPARENT",
+        "KC_TRANSPARENT",
+        "KC_AUDIO_MUTE"
+      ],
+      [
+        "KC_NO",
+        "KC_F14",
+        "KC_F9",
+        "KC_F8",
+        "KC_F7",
+        "KC_NO"
+      ],
+      [
+        "KC_F13",
+        "KC_F12",
+        "KC_F6",
+        "KC_F5",
+        "KC_F4",
+        "KC_NO"
+      ],
+      [
+        "KC_F11",
+        "KC_F10",
+        "KC_F3",
+        "KC_F2",
+        "KC_F1",
+        "KC_NO"
+      ],
+      [
+        "KC_NO",
+        "KC_TRANSPARENT",
+        "QK_USER_2",
+        "QK_USER_3",
+        "KC_TRANSPARENT",
+        "LCTL(KC_TAB)"
+      ]
+    ]
+  ],
+  "layout_options": 0,
+  "macro": [],
+  "settings": {
+    "1": 0,
+    "18": 0,
+    "19": 80,
+    "2": 50,
+    "20": 5,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 300,
+    "26": 0,
+    "27": 0,
+    "3": 0,
+    "4": 300,
+    "5": 5,
+    "6": 5000,
+    "7": 300
+  },
+  "tap_dance": [
+    [
+      "KC_0",
+      "KC_F10",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_1",
+      "KC_F1",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_2",
+      "KC_F2",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_3",
+      "KC_F3",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_4",
+      "KC_F4",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_5",
+      "KC_F5",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_6",
+      "KC_F6",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_7",
+      "KC_F7",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_8",
+      "KC_F8",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_9",
+      "KC_F9",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_0",
+      "KC_F10",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_COMMA",
+      "KC_F11",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_DOT",
+      "KC_F12",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "LALT(KC_BACKSPACE)",
+      "KC_LEFT_GUI",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "LSFT(KC_ENTER)",
+      "KC_CAPS_LOCK",
+      "KC_NO",
+      "KC_NO",
+      250
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      300
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      300
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      300
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      300
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      300
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      300
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      300
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      300
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      300
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      300
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      300
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      300
+    ]
+  ],
+  "uid": 9598886364103788452,
+  "version": 1,
+  "via_protocol": 9,
+  "vial_protocol": 6
+}

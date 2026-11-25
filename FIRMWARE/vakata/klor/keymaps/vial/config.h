@@ -42,17 +42,10 @@ for more options.
 //#define MASTER_LEFT
 // #define MASTER_RIGHT
 
-//#define TAPPING_TERM 170
-#define TAPPING_TERM 300
-
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
 #define TAPPING_FORCE_HOLD
 
 // Auto Shift
-#define NO_AUTO_SHIFT_ALPHA
-#define AUTO_SHIFT_TIMEOUT TAPPING_TERM
-//#define AUTO_SHIFT_NO_SETUP
-
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
 #define NO_ACTION_ONESHOT
@@ -60,7 +53,14 @@ for more options.
 //#define NO_MUSIC_MODE
 
 //#define COMBO_COUNT 3
-#define VIAL_COMBO_ENTRIES 25
+#define VIAL_COMBO_ENTRIES 35
+#define TAPPING_TERM 200
+#define TAP_HOLD_CAPS_DELAY 80
+#define ONESHOT_TAP_TOGGLE 3
+#define ONESHOT_TIMEOUT 5000
+#define AUTO_SHIFT_TIMEOUT 180
+#define AUTO_SHIFT_REPEAT
+
 // RGB matrix support
 #ifdef RGB_MATRIX_ENABLE
 // RGB Matrix Animation modes. Explicitly enabled
