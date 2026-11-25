@@ -52,11 +52,20 @@ jobs:
           ln -s "$GITHUB_WORKSPACE/firmware/vakata" \
             "$GITHUB_WORKSPACE/vial-qmk/keyboards/vakata"
 
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
       - name: Install compatible Python and QMK
         run: |
           uv python install 3.12
           uv tool install --force --python 3.12 \
             --with-requirements vial-qmk/requirements.txt qmk
+          echo "$(uv tool dir --bin)" >> "$GITHUB_PATH"
+
+      - name: Verify Python environment
+        run: |
+          which qmk
+          head -n 1 "$(which qmk)"
           qmk --version
 
       - name: Configure QMK
