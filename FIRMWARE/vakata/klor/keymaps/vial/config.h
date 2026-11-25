@@ -16,6 +16,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 #pragma once
 
+#define SPLIT_POINTING_ENABLE
+#define POINTING_DEVICE_RIGHT
+//#define POINTING_DEVICE_ROTATION_90
+#define POINTING_DEVICE_TASK_THROTTLE_MS 1
+#define GEN6_CURSOR_SENSITIVITY 1.0f
+#define GEN6_SCROLL_SENSITIVITY 0.025f
+#define GEN6_ROTATION 90
+#define GEN6_NATURAL_SCROLL 1
+#define GEN6_TAP_TERM_MS 250
+#define GEN6_TAP_THRESHOLD 90
+
 #define VIAL_KEYBOARD_UID {0xA4, 0x47, 0xBF, 0x83, 0x4A, 0x18, 0x36, 0x85}
 
 #define ___ KC_NO
