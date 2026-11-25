@@ -1,5 +1,7 @@
 # vakata's keyboards
 
+<img width="1600" height="1200" alt="keyboards" src="https://github.com/user-attachments/assets/d97ad558-30f1-42b9-88ca-a78046af9a71" />
+
 I use mainly three keyboards - the KLOR, the SWOOP and ZSA Voyager. My Swoops are from Leo on beekeeb, and the KLOR I soldered myself by using a kit from the same site. I use Vial to configure the KLOR and SWOOP.
 
 ## SWOOP
