@@ -16,6 +16,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 #pragma once
 
+#define OLED_UPDATE_INTERVAL 50
+#define OLED_TIMEOUT 60000
+
 #define SPLIT_POINTING_ENABLE
 #define POINTING_DEVICE_RIGHT
 //#define POINTING_DEVICE_ROTATION_90
