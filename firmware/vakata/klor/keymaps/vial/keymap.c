@@ -454,7 +454,6 @@ report_mouse_t pointing_device_driver_get_report(report_mouse_t report) {
 }
 
 void keyboard_post_init_user(void) {
-    i2c_init();
     wait_ms(1000);
 }
 
