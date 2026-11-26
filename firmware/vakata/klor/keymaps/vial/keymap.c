@@ -40,24 +40,13 @@ static bool gen6_read(uint32_t addr, uint8_t *data,
 
     if (i2c_transmit(0x58, cmd, sizeof(cmd), 100)
             != I2C_STATUS_SUCCESS) {
-        uprintf("Gen6: transmit error\n");
         return false;
     }
 
     if (i2c_receive(0x58, buf, sizeof(buf), 100)
             != I2C_STATUS_SUCCESS) {
-        uprintf("Gen6: receive error\n");
         return false;
     }
-    /*
-       if (i2c_transmit_and_receive(
-       0x58, cmd, sizeof(cmd),
-       buf, sizeof(buf), 100
-       ) != I2C_STATUS_SUCCESS) {
-       uprintf("Gen6: I2C error\n");
-       return false;
-       }
-       */
 
     uint8_t checksum = 0;
 
@@ -66,12 +55,10 @@ static bool gen6_read(uint32_t addr, uint8_t *data,
     }
 
     if (checksum != buf[len + 2]) {
-        uprintf("Gen6: checksum error\n");
         return false;
     }
 
     if ((buf[0] | (buf[1] << 8)) != len + 3) {
-        uprintf("Gen6: length mismatch\n");
         return false;
     }
 
@@ -157,9 +144,6 @@ void pointing_device_driver_init(void) {
     wait_ms(50);
 
     gen6_initialized = gen6_set_ptp(true);
-
-    uprintf("Gen6 PTP initialization: %s\n",
-            gen6_initialized ? "OK" : "FAILED");
 }
 uint16_t pointing_device_driver_get_cpi(void) {
     return 0;
@@ -444,63 +428,9 @@ report_mouse_t pointing_device_driver_get_report(
 
     return report;
 }
-/*
-   void housekeeping_task_user(void) {
-   static uint32_t last_poll = 0;
-
-   if (timer_elapsed32(last_poll) < 10) {
-   return;
-   }
-
-   last_poll = timer_read32();
-
-   uint8_t ready = 0;
-
-   if (!gen6_read(0x61010000, &ready, 1)) {
-   return;
-   }
-
-   if (!ready) {
-   return;
-   }
-
-   uint8_t packet[17] = {0};
-
-   if (i2c_receive(0x58, packet, sizeof(packet), 100)
-   != I2C_STATUS_SUCCESS) {
-   return;
-   }
-
-   uprintf("Report: ");
-
-   for (uint8_t i = 0; i < sizeof(packet); i++) {
-   uprintf("%02X ", packet[i]);
-   }
-
-   uprintf("\n");
-
-   wait_us(255);
-   }
-   */
 void keyboard_post_init_user(void) {
     i2c_init();
     wait_ms(1000);
-
-    uint8_t data[8];
-
-    if (gen6_read(0x20000808, data, sizeof(data))) {
-        uprintf("Hardware ID: 0x%02X\n", data[0]);
-        uprintf("Firmware ID: 0x%02X\n", data[1]);
-
-        uprintf("Vendor ID: 0x%04X\n",
-                data[2] | (data[3] << 8));
-
-        uprintf("Product ID: 0x%04X\n",
-                data[4] | (data[5] << 8));
-
-        uprintf("Version ID: 0x%04X\n",
-                data[6] | (data[7] << 8));
-    }
 }
 
 
