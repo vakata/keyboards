@@ -35,6 +35,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ___ KC_NO
 
 #define LAYOUT LAYOUT_saegewerk
+#define MATRIX_MASKED
 
 /* The way how "handedness" is decided (which half is which),
 see https://docs.qmk.fm/#/feature_split_keyboard?id=setting-handedness
