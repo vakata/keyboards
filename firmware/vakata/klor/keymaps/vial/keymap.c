@@ -24,6 +24,12 @@
 #include "print.h"
 #include "pointing_device.h"
 
+// Only populated Saegewerk switch positions, including encoder pushes.
+const matrix_row_t matrix_mask[MATRIX_ROWS] = {
+    0x3e, 0x3e, 0x3e, 0x2e, // left
+    0x3e, 0x3e, 0x3e, 0x2e  // right
+};
+
 static bool gen6_read(uint32_t addr, uint8_t *data,
         uint16_t len) {
     uint8_t cmd[8] = {
